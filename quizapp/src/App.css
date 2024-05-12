@@ -1,0 +1,52 @@
+.App{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu,.Quiz ,.endscreen{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Menu button , .Quiz button , .endscreen button{
+  width: 200px;
+  height: 50px;
+  margin: 4px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;  
+
+}
+
+.Menu button:hover,
+.endscreen button:hover{
+  background-color:pink;
+}
+
+.Menu , .Quiz , .endscreen{
+  color: white;
+}
+
+.options{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Quiz button:hover{
+  background-color:rgb(227, 164, 185);
+}
+
